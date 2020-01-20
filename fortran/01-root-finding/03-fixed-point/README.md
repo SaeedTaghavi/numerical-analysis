@@ -45,4 +45,6 @@ You can find more about the fixed-point method [here](https://en.wikipedia.org/w
 There are some plots, flowchart and animation that are interesting and helpful.
 
 
-
+- [ ] finish the code
+- [ ] compelete the documentation-find a way other than the github readme, because github does not render latex for the mathematics
+- [ ] Push my commits to GitHub
