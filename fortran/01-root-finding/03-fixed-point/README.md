@@ -2,34 +2,41 @@
 
 # fixed-point method
 
-Suppose that the equation $f(x) = 0$ is written in the form $x = g(x)$; that is,
+Suppose that the equation f(x) = 0 is written in the form x = g(x); that is,
 
-$$f(x) = x − g(x) = 0$$.
+f(x) = x − g(x) = 0.
 
-Then any fixed point $\xi$ of $g(x)$ is a root of $f(x) = 0$ because
-$$f(\xi) = \xi − g(\xi) = \xi − \xi = 0$$.
+Then any fixed point $\xi$ of $g(x)$ is a root of f(x) = 0 because
 
-Thus, a root of $f(x) = 0$ can be found by finding a fixed point of $x = g(x)$, which corresponds to $f(x) = 0$.
+f(x\*) = x\* − g(x\*) = x\* − x\* = 0.
 
-Finding a root of $f(x) = 0$ by finding a fixed point of $x = g(x)$ immediately suggests an iterative procedure of the following type
-Start with an initial guess $x_0$ of the root and form a sequence ${x_k}$ defined by
+Thus, a root of f(x) = 0 can be found by finding a fixed point of x = g(x), which corresponds to f(x) = 0.
 
-$$ x_{k+1} = g(x_k), k = 0, 1, 2, ... $$
+Finding a root of f(x) = 0 by finding a fixed point of x = g(x) immediately suggests an iterative procedure of the following type
 
-If the sequence ${x_k}$ converges, then $ \lim_{k \rightarrow \infty} x_k = \xi $ will be a root of $f(x) = 0$
 
+Start with an initial guess x0 of the root and form a sequence {xk} defined by
+
+ x_{k+1} = g(x_k), k = 0, 1, 2, ... 
+
+If the sequence {x_k} converges, x\* will be a root of f(x)=0.
+
+<!-- 
+then $ \lim_{k \rightarrow \infty} x_k = \xi $ will be a root of $f(x) = 0$
+ -->
 The question therefore rises:
 
-Given $f(x) = 0$ in $[a, b]$.
+Given f(x) = 0 in [a, b].
 
-How do we write $f(x) = 0$ in the form $x = g(x)$ such that the sequence ${x_k}$ is defined by 
+How do we write f(x) = 0 in the form x = g(x) such that the sequence {x_k} is defined by 
 
-$$x_{k+1} = g(x_k)$$;
+x_{k+1} = g(x_k);
 
-will converge to the root $x = \xi$ for any choice of the initial approximation $x_0$?
+will converge to the root x = ξ for any choice of the initial approximation x_0?
 
-The simplest way to write $f(x) = 0$ in the form $x = g(x)$ is to add $x$ on both sides, that is,
-$x = f(x) + x = g(x)$.
+
+The simplest way to write f(x) = 0 in the form x = g(x) is to add $x$ on both sides, that is,
+x = f(x) + x = g(x).
 But it does not very often work.
 
 
