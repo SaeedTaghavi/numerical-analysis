@@ -2,7 +2,7 @@
 
 # fixed-point method
 
-- [x] finish the code
+- [ ] finish the code
 - [ ] compelete the documentation-find a way other than the github readme, because github does not render latex for the mathematics
 - [ ] Push my commits to GitHub
 
