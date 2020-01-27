@@ -18,7 +18,7 @@ is a better approximation of the root than x0. Geometrically, (x1, 0) is the int
 until a sufficiently precise value is reached. 
 
 
-You can find more about the fixed-point method [here](https://en.wikipedia.org/wiki/Newton%27s_method).
+You can find more about the newton method [here](https://en.wikipedia.org/wiki/Newton%27s_method).
 
 There are some plots, flowchart and animation that are interesting and helpful.
 
